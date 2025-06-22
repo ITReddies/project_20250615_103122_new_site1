@@ -121,20 +121,11 @@ html {
   z-index: 2000;
 }
 
-
-
-
-
-
-
-
-
 /*Section 1 */
 .container_section1_l1 {
   position: relative;
   z-index: 100;
   height: 90vh;
-  margin-top: 10vh;
   padding: 4rem 2rem;
   box-sizing: border-box;
   border-bottom: 2px solid var(--color-primary);
@@ -260,12 +251,7 @@ html {
 .container_section2_l2 img {
   height: 50%;
   width: 50%;
-
-
 }
-
-
-
 
 /*Section 3 */
 .container_section3_l1 {
@@ -344,21 +330,51 @@ html {
 
 }
 
-.footer_left{
-
-}
-
 .footer_right{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   flex-wrap: wrap;
   margin-left: 60%;
-
 }
 
 .container_footer_l2 a{
   text-decoration: none;
     color:var(--color-primary);
-
 }
+
+.container_header_l1 svg {
+  fill: var(--color-primary);
+  width: 2vw;
+  height: 5vh;
+}
+
+.container_header_l1 a {
+  text-decoration: none;
+  margin: 0, 5rem;
+  padding: 0, 5rem;
+  font-family: system-ui, sans-serif;
+  color: var(--color-primary);
+}
+
+.container_header_l1 img {
+  width: 2rem;
+  height: 2rem;
+  color: var(--color-primary);
+  filter: hue-rotate(90deg);
+}
+
+.main_impressum{
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  font-family: var(--font_inter);
+}
+
+.main_datenschutz{
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+  font-family: var(--font_inter);
+}
+
+
+

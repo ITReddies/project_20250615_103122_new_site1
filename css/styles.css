@@ -223,7 +223,7 @@ html {
   padding: 2rem 2rem;
   box-sizing: border-box;
   font-size: 2rem;
-  outline: 2px dashed red;
+  /*outline: 2px dashed red;*/
   overflow: hidden;
   font-family: 'Inter', sans-serif;
 }
@@ -241,6 +241,7 @@ html {
 .container_section2_l2_r {
   flex: 1;
   margin-left: 10%;
+  margin-bottom: 2rem;
 }
 
 .container_section2_l2 p {
@@ -248,10 +249,17 @@ html {
   line-height: 1.3; /* optional, for tighter vertical spacing */
 }
 
-.container_section2_l2 img {
-  height: 50%;
-  width: 50%;
-}
+  .container_section2_l2 img {
+    position: relative;
+    left: -5vw;
+    top: 0;
+    margin-top: 1rem;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 5px;
+    display: block;
+  }
 
 /*Section 3 */
 .container_section3_l1 {
@@ -300,7 +308,7 @@ html {
   font-family: var(--font_bebas);
   font-size: 2rem;
   font-weight: bold;
-  outline: 2px dashed red;
+  /*outline: 2px dashed red;*/
   overflow: hidden;
 }
 
@@ -325,7 +333,7 @@ html {
   width: 100%;
   padding: 2rem 2rem;
   box-sizing: border-box;
-  outline: 2px dashed red;
+  /*outline: 2px dashed red;*/
   font-family: var(--font_inter);
 
 }
